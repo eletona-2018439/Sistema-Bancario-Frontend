@@ -1,0 +1,17 @@
+.small-modal {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    overflow: auto;
+    /* Centra el contenido verticalmente */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Centra el contenido horizontalmente */
+    align-items: center;
+  }
